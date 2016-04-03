@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/quick_profile"
+        android:layout_width="50dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0"
+        android:src="@drawable/ic_launcher"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/quick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="@string/app_name"
+            style="@android:style/TextAppearance.Holo.Medium"/>
+
+        <TextView
+            android:id="@+id/quick_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:singleLine="true"
+            android:text="@string/quick_bar"
+            style="@android:style/TextAppearance.Holo.Small" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/quick_friends"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            android:src="@drawable/ic_fb"
+            android:tint="@color/white"
+            tools:ignore="ContentDescription"/>
+
+        <ImageView
+            android:id="@+id/quick_messages"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            android:src="@drawable/ic_google"
+            android:tint="@color/white"
+            tools:ignore="ContentDescription"/>
+
+        <ImageView
+            android:id="@+id/quick_notifications"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            android:src="@drawable/ic_instagram"
+            android:tint="@color/white"
+            tools:ignore="ContentDescription"/>
+
+        <ImageView
+            android:id="@+id/quick_about"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            android:tint="@color/white"
+            android:src="@drawable/ic_tumblr"
+            tools:ignore="ContentDescription"/>
+    </LinearLayout>
+
+</LinearLayout>

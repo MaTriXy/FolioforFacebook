@@ -1,0 +1,115 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    
+<!-- Copyright (C) 2014-2015 Jorell Rutledge/Creative Trends.
+This file is originally apart of Folio for Facebook.
+Copyright notice must remain here if you're using any part of this code.-->
+    
+    <com.creativtrendz.folio.preferences.PreferenceCategory
+        android:title="@string/preference_category5">
+
+        <Preference
+			android:key="notifications_settings"
+            android:title="@string/notifications_settings"/>
+
+        <com.creativtrendz.folio.preferences.SwitchPreferenceCompat
+            android:key="show_ads"
+            android:title="@string/ads_folio"
+            android:summary="@string/ads_folio_des"/>
+        
+     <com.creativtrendz.folio.preferences.SwitchPreferenceCompat
+            android:key="allow_inside"
+            android:title="@string/open_link_title"
+            android:defaultValue="false"/>
+
+
+          
+     <com.creativtrendz.folio.preferences.SwitchPreferenceCompat
+            android:key="folio_locker"
+            android:title="@string/folio_lock"
+            android:defaultValue="false"/> 
+                
+   </com.creativtrendz.folio.preferences.PreferenceCategory>
+   
+        
+    
+    <com.creativtrendz.folio.preferences.PreferenceCategory
+        android:title="@string/preference_category7">
+        
+        <Preference            
+            android:key="custom_settings"
+            android:title="@string/customize_folio"
+            android:summary="@string/customize_folio_hint"/>
+        
+                
+        <Preference
+            android:key="customnav"
+            android:title="@string/navigation_pref"
+            android:summary="@string/navigation_pref_hint"/>
+        
+        <com.creativtrendz.folio.preferences.ListPreferenceCompat
+        	android:id="@+id/relativeLayoutChooseFont"
+            android:entries="@array/font_choice"
+            android:entryValues="@array/font_pref"
+            android:key="font_pref"
+            android:summary="@string/choose_font_facebook_hint"
+            android:title="@string/choose_font_facebook"
+            android:defaultValue="default_font" />
+        
+         <Preference
+            android:key="tap"
+            android:title="@string/tap_to_set"/>
+            
+                    
+     </com.creativtrendz.folio.preferences.PreferenceCategory>
+     
+     
+    <com.creativtrendz.folio.preferences.PreferenceCategory
+        android:title="@string/news_feed_preferences">
+
+
+        <ListPreference
+            android:id="@+id/relativeLayoutChooseFeed"
+            android:entries="@array/pref_default_feed"
+            android:entryValues="@array/pref_feed"
+            android:key="news_feed"
+            android:summary="@string/feed_choice_hint"
+            android:title="@string/feed_choice"
+            android:defaultValue="default_news" />
+        
+        </com.creativtrendz.folio.preferences.PreferenceCategory>
+        
+        
+          
+   <com.creativtrendz.folio.preferences.PreferenceCategory
+        android:title="@string/preference_about_category">
+        
+       <Preference
+            android:key="clear"
+            android:title="@string/clear_cache"
+            android:summary="@string/clear_cache_description"/>
+       
+    
+        <Preference
+            android:key="about_settings"
+            android:title="@string/title_activity_about"/>
+        
+        <Preference
+            android:key="credits_settings"
+            android:title="@string/credits_settings"/>
+        
+        
+           
+        <Preference
+            android:key="help_development"
+            android:title="@string/preference_donate_category"
+            android:summary="@string/donate_jorell"/>
+        
+        
+      </com.creativtrendz.folio.preferences.PreferenceCategory>
+              
+     
+    
+
+</PreferenceScreen>

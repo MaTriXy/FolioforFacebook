@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+ <com.creativtrendz.folio.preferences.PreferenceCategory
+		android:title="@string/addons">
+		
+
+
+      <com.creativtrendz.folio.preferences.SwitchPreferenceCompat
+            android:key="enable_gplus"
+            android:title="@string/enable_google"
+            android:defaultValue="false"/>
+      
+      <com.creativtrendz.folio.preferences.SwitchPreferenceCompat
+            android:key="enable_instagram"
+            android:title="@string/enable_instagram"
+            android:defaultValue="false"/>
+      
+      <com.creativtrendz.folio.preferences.SwitchPreferenceCompat
+            android:key="enable_tumblr"
+            android:title="@string/enable_tumblr"
+            android:defaultValue="false"/>
+      
+  </com.creativtrendz.folio.preferences.PreferenceCategory>
+     
+  	
+  <com.creativtrendz.folio.preferences.PreferenceCategory
+		android:title="@string/quickaccess" > 
+		  
+       <com.creativtrendz.folio.preferences.SwitchPreferenceCompat
+            android:key="recent_off"
+            android:title="@string/recent_nav"
+            android:defaultValue="false"/>
+       
+       
+        <com.creativtrendz.folio.preferences.SwitchPreferenceCompat
+            android:key="top_off"
+            android:title="@string/top_nav"
+            android:defaultValue="false"/>
+        
+        
+           <com.creativtrendz.folio.preferences.SwitchPreferenceCompat
+            android:key="trending_off"
+            android:title="@string/trending_nav"
+            android:defaultValue="false"/>      
+          
+        </com.creativtrendz.folio.preferences.PreferenceCategory>
+        
+  <com.creativtrendz.folio.preferences.PreferenceCategory
+		android:title="@string/faved" >
+          
+           <com.creativtrendz.folio.preferences.SwitchPreferenceCompat
+            android:key="friends_off"
+            android:title="@string/friends_nav"
+            android:defaultValue="false"/> 
+            
+            
+           <com.creativtrendz.folio.preferences.SwitchPreferenceCompat
+            android:key="groups_off"
+            android:title="@string/groups_nav"
+            android:defaultValue="false"/> 
+            
+           <com.creativtrendz.folio.preferences.SwitchPreferenceCompat
+            android:key="pages_off"
+            android:title="@string/pages_nav"
+            android:defaultValue="false"/> 
+            
+           <com.creativtrendz.folio.preferences.SwitchPreferenceCompat
+            android:key="photos_off"
+            android:title="@string/photos_nav"
+            android:defaultValue="false"/> 
+            
+          </com.creativtrendz.folio.preferences.PreferenceCategory> 
+          
+  <com.creativtrendz.folio.preferences.PreferenceCategory
+		android:title="@string/reminders" >
+            
+           <com.creativtrendz.folio.preferences.SwitchPreferenceCompat
+            android:key="events_off"
+            android:title="@string/events_nav"
+            android:defaultValue="false"/> 
+            
+           <com.creativtrendz.folio.preferences.SwitchPreferenceCompat
+            android:key="thisday_off"
+            android:title="@string/onday_nav"
+            android:defaultValue="false"/> 
+            
+           
+           <com.creativtrendz.folio.preferences.SwitchPreferenceCompat
+            android:key="saved_off"
+            android:title="@string/saved_nav"
+            android:defaultValue="false"/> 
+        
+   
+ </com.creativtrendz.folio.preferences.PreferenceCategory>
+ 
+ 
+ <com.creativtrendz.folio.preferences.PreferenceCategory
+        android:title="@string/preference_set_category">
+        
+        <Preference
+            android:key="tap"
+            android:title="@string/tap_to_set"/>
+        
+        </com.creativtrendz.folio.preferences.PreferenceCategory>
+                
+        
+</PreferenceScreen>

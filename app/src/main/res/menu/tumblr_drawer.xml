@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright (C) 2014-2015 Jorell Rutledge/Creative Trends.
+This file is originally apart of Folio for Facebook.
+Copyright notice must remain here if you're using any part of this code.-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    xmlns:tools="http://schemas.android.com/tools">
+    
+    
+    
+    <item
+        android:title="@string/quickaccess">
+        <menu>
+            <group android:id="@+id/quick_access_google">
+            <item
+            android:id="@+id/folio"
+            android:icon="@drawable/ic_stat_f"
+            android:title="@string/switch_to_folio"
+            android:visible="true"/> 
+            
+            <item
+            android:id="@+id/bugs"
+            android:icon="@drawable/sidebar_bugs"
+            android:title="@string/bugs"/>
+            
+            <item
+            android:id="@+id/helpfeedback"
+            android:title="@string/helpfeed"
+            android:icon="@drawable/sidebar_feedback"/>
+         
+            </group>
+        </menu>
+    </item>
+ 
+    
+    </menu>

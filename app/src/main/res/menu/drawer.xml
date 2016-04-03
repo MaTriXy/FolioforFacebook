@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright (C) 2014-2015 Jorell Rutledge/Creative Trends.
+This file is originally apart of Folio for Facebook.
+Copyright notice must remain here if you're using any part of this code.-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white">
+    
+    
+    
+    <item
+        android:title="@string/quickaccess">
+        <menu>
+            <group android:id="@+id/quick_access" android:checkableBehavior="single">
+                
+            <item
+            android:id="@+id/newsfeed"
+            android:icon="@drawable/ic_newsfeed"
+            android:title="@string/newsfeed"
+            android:visible="true"/>                       
+                        
+            <item
+            android:id="@+id/top_newsdrawer"
+            android:icon="@drawable/ic_notes"
+            android:title="@string/topnews"
+            android:visible="true" />
+
+            <item
+            android:id="@+id/fbmenu"
+            android:icon="@drawable/ic_nav_drawer"
+            android:title="@string/fbmenu"
+            android:visible="true" />
+
+            <item
+            android:id="@+id/trending"
+            android:icon="@drawable/ic_trends"
+            android:title="@string/trending"
+            android:visible="true"/>
+            </group>
+        </menu>
+    </item>
+    
+   
+    <item
+        android:title="@string/faved">
+        <menu>
+            <group android:id="@+id/favorites" android:checkableBehavior="single">
+             <item
+            android:id="@+id/friends"
+            android:icon="@drawable/ic_friends"
+            android:title="@string/friends"
+            android:visible="true" />
+             
+            <item
+            android:id="@+id/group"
+            android:icon="@drawable/ic_grouped"
+            android:title="@string/groups" 
+            android:visible="true"/>
+            
+            <item
+            android:id="@+id/pages"
+            android:icon="@drawable/ic_pages"
+            android:title="@string/pages"
+            android:visible="true"/>
+            
+            <item
+            android:id="@+id/photos"
+            android:icon="@drawable/ic_pictures"
+            android:title="@string/photos"
+            android:visible="true"/>
+            </group>
+        </menu>
+    </item>
+    
+    
+   
+    <item
+        android:title="@string/reminders">
+        <menu>
+            <group android:id="@+id/more_choices" 
+                android:checkableBehavior="single">
+            <item
+            android:id="@+id/events"
+            android:icon="@drawable/ic_event"
+            android:title="@string/events"
+            android:visible="true"/>
+            
+           <item
+            android:id="@+id/onthisday"
+            android:icon="@drawable/ic_on_this_day"
+            android:title="@string/onthisday"
+            android:visible="true"/>
+            
+            <item
+            android:id="@+id/saved"
+            android:icon="@drawable/ic_saved"
+            android:title="@string/saved"
+            android:visible="true"/>
+            </group>
+        </menu>
+    </item>
+    
+    <item
+        android:title="@string/addons">
+        <menu>
+            <group android:id="@+id/add_ons" 
+                android:checkableBehavior="single">
+
+            <item
+            android:id="@+id/googleplus"
+            android:icon="@drawable/ic_google"
+            android:title="@string/switch_to_gplus"
+            android:visible="true"/>
+            
+            <item
+            android:id="@+id/instagram"
+            android:icon="@drawable/ic_instagram"
+            android:title="@string/switch_to_gram"
+            android:visible="true"/>
+            
+            <item
+            android:id="@+id/tumblr"
+            android:icon="@drawable/ic_tumblr"
+            android:title="@string/switch_to_tum"
+            android:visible="true"/>
+            
+            </group>
+            </menu>
+            </item>
+    
+    
+    <item
+        android:id="@+id/options_menu"
+        android:title="@string/prefs">
+        <menu>
+            
+                                   
+            <item
+            android:id="@+id/settings"
+            android:title="@string/settings"
+            android:icon="@drawable/sidebar_settings"/>
+            
+            <item
+            android:id="@+id/trans"
+            android:title="@string/help_trans"
+            android:icon="@drawable/ic_trans"/>
+
+           
+        </menu>
+    </item>
+    
+    
+        
+    </menu>

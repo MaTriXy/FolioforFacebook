@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:color="@color/white"
+    android:fitsSystemWindows="true" >
+    
+  
+   <RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    
+    
+    <View
+	    android:layout_width="match_parent"
+	    android:layout_height="4dp"
+	    android:layout_below="@+id/toolbar"
+	    android:background="@drawable/actionbar_shadow"
+	    tools:ignore="ObsoleteLayoutParam" />
+
+</RelativeLayout>
+   
+    
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="48dip" >
+        
+         
+        <ImageView
+            android:id="@+id/app_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            tools:ignore="ContentDescription"
+            android:src="@drawable/ic_launcher_folio" />
+        
+      
+
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/app_logo"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:paddingTop="40dp"
+            android:textColor="?attr/colorAccent"
+            android:text="@string/app_name_about"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/copyright"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/app_name"
+            android:gravity="center"
+            android:text="@string/copyright"
+            android:textColor="?attr/colorAccent"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/mention"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/copyright"
+            android:gravity="center"
+            android:text="@string/allrights"
+            android:textColor="?attr/colorAccent"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/mention"
+            android:gravity="center"
+            android:text="@string/about_version"
+            android:textColor="?attr/colorAccent"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/company_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/version"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="40dp"
+            android:src="@drawable/ic_stat_f"
+            tools:ignore="ContentDescription"
+            android:visibility="invisible" />
+        
+        <TextView
+            android:id="@+id/klyph"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/company_logo"
+            android:paddingTop="40dp"
+            android:gravity="center"
+            android:text="@string/about_image"
+            android:textColor="@android:color/white"            
+            android:textSize="12sp"
+            android:visibility="invisible"/>
+        
+       
+    </RelativeLayout>
+    
+     
+
+</FrameLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+ <PreferenceCategory
+		android:title="@string/preference_category3">
+        
+    
+   <ListPreference
+        	android:id="@+id/relativeLayoutChooseTheme"
+            android:entries="@array/pref_theme_fb_entries"
+            android:entryValues="@array/pref_theme_values_free"
+            android:key="theme_preference_fb"
+            android:summary="@string/choose_theme_folio_hint"
+            android:title="@string/choose_theme_facebook"
+            android:defaultValue="materialtheme" />
+    
+            
+    </PreferenceCategory>
+            
+    <PreferenceCategory
+		android:title="@string/preference_facebook_layouts">
+
+        <SwitchPreference
+            android:key="auto_scroll"
+            android:title="@string/preferences_auto"
+            android:defaultValue="false"
+            android:dependency="hidden"/>
+
+        <SwitchPreference
+            android:key="hidden"
+            android:title="@string/hidden_bar"
+            android:defaultValue="false"
+            android:disableDependentsState="true"/>
+                
+              
+                
+        <SwitchPreference
+            android:key="no_images"
+            android:title="@string/no_images"
+            android:summary="@string/no_images_hint"
+            android:defaultValue="false"/> 
+            
+                   
+        <SwitchPreference
+            android:key="hide_people"
+            android:title="@string/people_you"
+            android:summary="@string/people_you_hint"
+            android:defaultValue="false"/> 
+              
+               
+    </PreferenceCategory>
+    
+    
+    <PreferenceCategory
+        android:title="@string/preference_category4">
+        
+           
+       
+    <ListPreference
+        	android:id="@+id/relativeLayoutChooseTheme"
+            android:entries="@array/pref_theme_entries"
+            android:entryValues="@array/pref_theme_values"
+            android:key="theme_preference"
+            android:summary="@string/choose_theme_folio_hint"
+            android:title="@string/choose_theme_folio"
+            android:defaultValue="folio" />
+    
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:title="@string/preference_category15">
+         
+                
+         <SwitchPreference
+            android:key="show_fab"
+            android:title="@string/show_fab"
+            android:summary="@string/show_fab_hint"
+            android:defaultValue="false" />
+        
+         
+                     
+        </PreferenceCategory>
+        
+        
+               
+        
+        <PreferenceCategory
+        android:title="@string/preference_set_category">
+        
+        <Preference
+            android:key="tap"
+            android:title="@string/tap_to_set"/>
+        
+        </PreferenceCategory>
+                
+        
+</PreferenceScreen>

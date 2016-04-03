@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+
+
+    <!-- Start Basic Strings -->
+    <string name="app_name">Folio</string>
+    <string name="app_name_toolbar">Folio</string>
+    <string name="app_name_about">Folio za Facebook</string>
+    <string name="action_settings">Postavke</string>
+    <string name="closeDrawer">Navigacijski pogled</string>
+    <string name="openDrawer">Otvori lijevu ladicu</string>
+    <string name="facebook_app_id">749196541804006</string>
+    <string name="get_started">Prijavi se sa Facebookom</string>
+    <string name="status_updated">Status je ažuriran.</string>
+    <string name="loading_video">Učitavanje.</string>
+    <string name="ok">OK</string>
+    <string name="tap_to_set">Dodirnite za primjenu promjena</string>
+    <string name="send_feedback">Folio povratne informacije</string>
+    <string name="applying_changes">Čišćenje privremene memorije. Ponovno pokrenite Folio.</string>
+    <string name="cancel">Poništi</string>
+    <string name="choose_email_client">Odaberi e-mail klijent</string>
+    <string name="no_network">Niste povezani.</string>
+    <string name="title_activity_settings">Postavke</string>
+    <string name="title_activity_about">O aplikaciji</string>
+    <string name="preference_about_category">O aplikaciji</string>
+    <string name="preference_set_category">Sve spremno?</string>
+    <!-- End Basic Strings -->
+
+
+
+
+    <!-- Start FAB Labels -->
+    <string name="folio_video">Učitaj video</string>
+    <string name="folio_checkins">Check-in</string>
+    <string name="folio_tags">Označi prijatelja</string>
+    <string name="folio_images">Učitaj sliku iz galerije</string>
+    <string name="update_share">Podijeli</string>
+    <string name="update_status">Objavi status</string>
+    <string name="update_photo">Dodaj fotografije</string>
+    <string name="show_fab">Prikaži FAB</string>
+    <string name="show_fab_hint">Prikažite plutajući gumb na dnu desne strane zaslona.</string>
+    <!-- End FAB Labels -->
+
+
+
+
+    <!-- Start Folio Drawer -->
+    <string name="quickaccess">Brzi pristup</string>
+    <string name="newsfeed">Vijesti</string>
+    <string name="topnews">Bilješke</string>
+    <string name="fbmenu">Facebook izbornik</string>
+    <string name="trending">Popularne vijesti</string>
+    <string name="messages">Poruke</string>
+    <string name="faved">Favoriti</string>
+    <string name="friends">Prijatelji</string>
+    <string name="groups">Grupe</string>
+    <string name="pages">Stranice</string>
+    <string name="photos">Fotografije</string>
+    <string name="reminders">Podsjetnici</string>
+    <string name="events">Događaji</string>
+    <string name="onthisday">Na današnji dan</string>
+    <string name="saved">Spremljeno</string>
+    <string name="prefs">Postavke</string>
+    <string name="settings">Postavke</string>
+    <string name="helpfeed">Povratne informacije</string>
+    <string name="bugs">Prijavite pogreške</string>
+    <string name="switch_to_folio">Prebaci na Folio</string>
+    <string name="switch_to_gplus">Prebaci na Google+</string>
+    <string name="switch_to_gram">Prebaci na Instagram</string>
+    <string name="switch_to_tum">Prebaci na Tumblr</string>
+    <!-- End Folio Drawer -->
+
+
+
+
+    <!-- Start Add ons Custom Navigation Drawer Removals-->
+    <string name="addons">Društveni dodaci</string>
+    <string name="enable_google">Ukloni Google+</string>
+    <string name="enable_instagram">Ukloni Instagram</string>
+    <string name="enable_tumblr">Ukloni Tumblr</string>
+    <!-- End Add ons Custom Navigation Drawer Removals -->
+
+
+    <!-- Start Navigation Drawer Removals -->
+    <string name="navigation_pref">Stavke u navigacijskoj ladici</string>
+    <string name="navigation_pref_hint">Prilagodite navigacijsku ladicu uklanjanjem stavki koje ne koristite u Foliu.</string>
+    <string name="recent_nav">Ukloni Vijesti</string>
+    <string name="top_nav">Ukloni Bilješke</string>
+    <string name="trending_nav">Ukloni Popularne vijesti</string>
+    <string name="friends_nav">Ukloni Prijatelje</string>
+    <string name="groups_nav">Ukloni Grupe</string>
+    <string name="pages_nav">Ukloni Stranice</string>
+    <string name="photos_nav">Ukloni Fotografije</string>
+    <string name="events_nav">Ukloni Događaje</string>
+    <string name="onday_nav">Ukloni Na današnji dan</string>
+    <string name="saved_nav">Ukloni Spremljeno</string>
+    <!-- Start Navigation Drawer Removals -->
+
+
+    <!-- Start News Feed Preference -->
+    <string name="news_feed_preferences">Postavke Novosti</string>
+    <string name="feed_choice">Sortiraj vijesti prema</string>
+    <string name="feed_choice_hint">Trenutno sortiranje: %s.</string>
+
+    <string-array name="pref_default_feed">
+        <item>Zadano (Brzo se učitava)</item>
+        <item>Najnovije vijesti (Sporo se učitava)</item>
+        <item>Najzanimljivije vijesti (Sporo se učitava)</item>
+    </string-array>
+    <!-- End News Feed Preference -->
+
+
+    <!-- Start Font Preference -->
+    <string name="choose_font_facebook">Veličina Facebookovog fonta</string>
+    <string name="choose_font_facebook_hint">Trenutna veličina fonta: %s</string>
+    <string name="font_preference">Postavke Facebookovog fonta</string>
+    <string-array name="font_choice">
+        <item>Zadani Font</item>
+        <item>Mali Font</item>
+        <item>Srednji Font</item>
+        <item>Veliki Font</item>
+        <item>Ekstra Veliki Font</item>
+        <item>XX Veliki Font</item>
+    </string-array>
+    <!-- End Font Preference -->
+
+
+
+    <!-- Start Overflow Menu-->
+    <string name="top">Skok na vrh</string>
+    <string name="fb_settings">Facebook Postavke</string>
+    <string name="fb_chat">Aktivni prijatelji</string>
+    <string name="fb_recent">Najnovije</string>
+    <string name="refresh">Osvježi</string>
+    <string name="notifications">Obavijesti</string>
+    <string name="notifications_about_hint">Postavite obavijesti.</string>
+    <string name="search">Pretraži Facebook</string>
+    <string name="end">Odjavi se</string>
+    <string name="exit">Izlaz</string>
+    <!-- End Overflow Menu-->
+
+
+
+    <!-- Start Folio Main Customizations & Facebook Themes-->
+    <string name="customize_folio">Prilagodi Folio</string>
+    <string name="customize_folio_hint">Promijenite izgled i raspored.</string>
+    <string name="preferences_auto">Onemogući Facebookovu alatnu traku</string>
+    <string name="preferences_auto_hint">Ovo omogućava Foliovu alatnu traku.</string>
+    <string name="hidden_bar">Onemogući Foliovu alatnu traku</string>
+    <string name="hidden_bar_hint">Koristite samo Facebookovu alatnu traku. Prvo onemogućite Foliovu traku.</string>
+    <string name="choose_theme_folio">Odaberite temu aplikacije</string>
+    <string name="choose_theme_facebook">Odaberite Facebookovu temu</string>
+    <string name="choose_theme_facebook_hint">Trenutna tema: %s</string>
+    <string name="choose_theme_folio_hint">Trenutna tema: %s</string>
+    <string name="preference_category7">Prilagodbe</string>
+    <string name="preference_category4">Folio teme</string>
+    <string name="preference_category15">Postavke Folio rasporeda</string>
+    <string name="preference_facebook_layouts">Postavke Facebook rasporeda</string>
+    <string name="preference_category3">Facebook teme</string>
+    <string-array name="pref_theme_entries">
+    <item>Folio tema</item>
+    <item>Ružičasta tema</item>
+    <item>Tamna tema</item>
+    <item>Sivo plava tema</item>
+    </string-array>
+    <string-array name="pref_theme_fb_entries">
+    <item>Facebook tema</item>
+    <item>Crna tema</item>
+    <item>Dracula tema</item>
+    <item>Folio tema</item>
+    </string-array>
+    <!-- End Folio Main Customizations & Facebook Themes-->
+
+    <!-- START MIXED STRINGS -->
+
+    <string name="fb_offline">Pogreška</string>
+    <string name="cancelled">Otkazano</string>
+    <string name="permission_not_granted">Nije moguće izvršiti odabrane radnje because zato što dozvole nisu dozvoljene.</string>
+    <string name="image_chooser">Odabir slika</string>
+    <string name="donate_jorell">Podržite razvoj i otključajte značajke</string>
+    <string name="preference_donate_category">Kupite Folio Pro</string>
+    <string name="preferences_feedback">Pošalji povratne informacije</string>
+    <string name="preferences_rate_description">Ocijenite Folio</string>
+    <string name="clear_cache">Očisti podatke</string>
+    <string name="clear_cache_title">Jeste li sigurni?</string>
+    <string name="clear_cache_message">Pritisnite OK za čišćenje Foliovih podataka. Ovo će vas odjaviti.</string>
+    <string name="clear_cache_description">Očistite Foliove podatke. Ovo će vas odjaviti.</string>
+    <string name="people_you">Ljudi koje možda poznajete</string>
+    <string name="people_you_hint">Sakrijte ljude koje možda poznajete. (BETA)</string>
+
+    <string name="open_link_title">Chrome Custom kartice</string>
+    <string name="open_link_hint">Otvarajte vanjske poveznice u Chrome Custom karticama?</string>
+
+    <string name="addPage">Dodaj u Favorite</string>
+    <string name="removePage">Ukloni iz Favoritea</string>
+
+    <string name="preference_category5">Općenito</string>
+
+    <string name="get_key">https://play.google.com/store/apps/details?id=com.creativetrends.folio.app.key</string>
+    <string name="get_app_store">https://play.google.com/store/apps/details?id=com.creativetrends.folio.app</string>
+
+    <string name="no_images">Onemogući slike</string>
+    <string name="no_images_hint">Smanjite potrošnju mobilnih podataka uklanjanjem slika.</string>
+
+    <!-- END MIXED STRINGS -->
+
+
+    <!-- START CREDITS, TRANSLATIONS & SOCIAL LINK BACK -->
+    <string name="credits_settings">Zahvale</string>
+    <string name="credits_licenses">Tap here to read more about the licences used in Folio.</string>
+    <string name="credits_licenses_description">Open source software licenses</string>
+    <string name="preference_category6">Credits</string>
+    <string name="credits_bejan">Bejan Kanga</string>
+    <string name="credits_bejan_description">For launcher icons for Folio &amp; Folio Messenger. Also some navigation drawer icons. Also help with development on portions of the original app FrontPage. Tap here to visit his website.</string>
+    <string name="credits_bejan_link" translatable="true">http://bejank.com</string>
+    <string name="credits_nam">Nam Nghiem</string>
+    <string name="credits_nam_description">For help with cover photos.</string>
+    <string name="credits_nam_link" translatable="true">https://play.google.com/store/apps/details?id=com.nam.fbwrappe&amp;hl=en</string>
+    <string name="credits_fadev">Florent Anders</string>
+    <string name="credits_fadev_description">For help with Folio Lock.</string>
+    <string name="credits_fadev_link" translatable="true">https://play.google.com/store/apps/details?id=com.fa.touch.app&amp;hl=en</string>
+    <string name="credits_beta">Facebook Group</string>
+    <string name="credits_beta_description">Join Creative Trends on Facebook.</string>
+    <string name="credits_beta_link" translatable="true">https://www.facebook.com/groups/creativtrendz/</string>
+    <string name="credits_google_plus">Google+</string>
+    <string name="credits_google_plus_description">Join Creative Trends on Google+</string>
+    <string name="credits_google_plus_link" translatable="true">https://plus.google.com/communities/116238843585710616103</string>
+    <string name="credits_janae">Janae</string>
+    <string name="credits_janae_description">For sharing an interest in technology and being patient while daddy worked.</string>
+    <string name="credits_tykeshia">Tykeshia</string>
+    <string name="credits_tykeshia_description">For being supportive and encouraging throughout the past years. Thanks for letting me borrow the laptop.</string>
+    <string name="credits_facebook">Facebook Inc.</string>
+    <string name="credits_facebook_description">For their new graph api. Also for their mobile site which is used in Folio. </string>
+    <string name="credits_facebook_link" translatable="true">http://m.facebook.com</string>
+    <string name="credits_google">Google Inc.</string>
+    <string name="credits_google_description">For AppCompat v7, also for open sourcing your Material Design icons.</string>
+    <string name="credits_google_link" translatable="true">https://developer.android.com/tools/support-library/features.html</string>
+    <string name="preference_category10">Open Source Software Used</string>
+    <string name="preference_category8">Open Source Licenses</string>
+    <string name="preference_category12">Translations</string>
+    <string name="credits_italian">Fabio Catinella</string>
+    <string name="credits_italian_description">Italiano</string>
+    <string name="credits_spanish">Marco Rubio Asensio</string>
+    <string name="credits_spanish_description">Español</string>
+    <string name="credits_german">Lucas Krause</string>
+    <string name="credits_german_description">Deutsch</string>
+    <string name="credits_brazilian">Vinícius Rubens Pedrinho</string>
+    <string name="credits_brazilian_description">Português de Brasil</string>
+    <string name="credits_turk">Mehmet Çalışkan</string>
+    <string name="credits_turk_description">Türkçe</string>
+    <string name="credits_fren">Jean Philippe</string>
+    <string name="credits_fren_description">Français</string>
+    <string name="credits_pol">seba112</string>
+    <string name="credits_pol_description">Polski</string>
+    <string name="credits_dut">Robert Boes</string>
+    <string name="credits_dut_description">Nederlands</string>
+    <string name="credits_dut2">Dennis</string>
+    <string name="credits_dut2_description">Nederlands</string>
+    <string name="credits_rom">Iulian Szidelo</string>
+    <string name="credits_rom_description">Romana</string>
+    <string name="credits_rus">Артём Петров</string>
+    <string name="credits_rus_description">Русский</string>
+    <string name="help_trans">Help Translate</string>
+    <string name="help_trans_hint">Tap to help translate Folio into your language.</string>
+    <!-- END CREDITS, TRANSLATIONS & SOCIAL LINK BACK -->
+
+
+<!-- Start Notifications -->
+    <string name="interval_pref">Sync Interval</string>
+    <string name="interval_pref_description">Notifications will be checked every: %s.</string>
+    <string-array name="update_interval">
+        <item>Instant (High Baterija &amp; Korištenje podataka)</item>
+        <item>1 minuta</item>
+        <item>5 minutea</item>
+        <item>15 minuta</item>
+        <item>30 minuta</item>
+        <item>1 sat</item>
+        <item>3 sata</item>
+        <item>6 sati</item>
+    </string-array>
+
+    <string-array name="update_interval_values">
+        <item>5000</item>
+        <item>60000</item>
+        <item>300000</item>
+        <item>900000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+        <item>10800000</item>
+        <item>21600000</item>
+    </string-array>
+
+    <string name="notify_log">Zapisnik obavijesti</string>
+    <string name="btn_chioce">Odaberi(%d)</string>
+    <string name="you_have_one_message">Imate 1 novu poruku</string>
+    <string name="you_have_n_messages">Imate %d novih poruka</string>
+    <string name="sync_problem">Sranje! Ovo je pogreška. Folio nije mogao dohvatiti vaše obavijesti. Molimo ponovno pokrenite Folio.</string>
+    <string name="activate_notifications">Facebook obavijesti</string>
+    <string name="activate_messages">Obavijesti za poruke</string>
+    <string name="notifications_service_created">Obavijesti su aktivirane</string>
+    <string name="notifications_settings">Obavijesti</string>
+    <string name="all_notifications">Prikaži obavijesti</string>
+    <string name="all_messages">Prikaži poruke</string>
+    <string name="all_requests">Prikaži zahtjeve za prijateljstvo</string>
+    <string name="notification_sound">Zvuk obavijesti</string>
+    <string name="notification_sound_description">Trenutni: \u0020</string>
+    <string name="message_sound">Zvuk obavijesti poruka</string>
+    <string name="message_sound_description">Trenutni: \u0020</string>
+    <string name="silent">Bez zvuka</string>
+    <string name="vibrate">Vibracija</string>
+    <string name="led_light">LED za obavijesti</string>
+    <string name="led_color">Boja LED lampice</string>
+    <string name="led_color_description">Trenutna LED boja: %s.</string>
+    <string name="notifications_extra">Dodatno</string>
+    <string name="notifications_everywhere">Uvijek budi obaviješteni</string>
+    <string name="notifications_everywhere_description">Čak i kad ne koristite Folio.</string>
+    <string name="quick_bar">QuickBar</string>
+    <string name="quick_bar_hint">Prikažite Foliov QuickBar za obavijesti kako bi otvorili plutajući prozor za vašu najdražu mrežu.</string>
+    <string name="quick_bar_on">Folio QuickBar je sada uključen.</string>
+
+  <!-- End Notifications -->
+
+
+
+
+
+    <!-- Start Folio Lock -->
+    <string name="folio_lock">Omogući Folio zaključavanje</string>
+    <string name="unlock_text">Molimo unesite vašu lozinku</string>
+    <string name="lock_abort">Odustani</string>
+    <string name="lock_pin">lozinka</string>
+    <string name="lock_text">Osigurajte Folio s lozinkom</string>
+    <string name="lock_confirm">potvrdite lozinku</string>
+    <string name="lock_wrong">Lozinka je netočna</string>
+    <string name="lock_empty">Lozinka ne može biti prazna</string>
+    <!-- End Folio Lock -->
+
+
+    <!-- Start Saving Images Context Menu. -->
+    <string name="context_save_image">Spremi</string>
+    <string name="context_share_image">Podijeli</string>
+    <string name="context_copy_image_link">Kopiraj vezu</string>
+    <string name="context_share_link">Podijeli vezu</string>
+    <string name="context_copy_link">Kopiraj vezu</string>
+    <string name="context_share_image_progress">Učitavanje…</string>
+    <string name="content_copy_link_done">Veza je kopirana u međuspremnik</string>
+    <!-- End Saving Images Context Menu. -->
+
+
+
+    <!-- START OF LICENSES: DO NOT TRANSLATE LEAVE AS IS-->
+    <string name="about_text"><![CDATA[
+
+
+    <b>Tray Preferences</b><br><br>
+    Copyright 2015 grandcentrix GmbH<br><br>
+
+   	Licensed under the Apache License, Version 2.0 (the "License");
+   	you may not use this file except in compliance with the License.<br>
+   	You may obtain a copy of the License at:<br><br>
+
+   	http://www.apache.org/licenses/LICENSE-2.0<br><br>
+
+   	Unless required by applicable law or agreed to in writing, software
+  	distributed under the License is distributed on an "AS IS" BASIS,
+   	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.<br>
+   	See the License for the specific language governing permissions and
+   	limitations under the License.<br><br><br>
+
+
+   	<b>Material Preferences</b><br><br>
+
+   	The MIT License (MIT)<br><br>
+
+	Copyright &#169; 2015 Jens Driller<br><br>
+
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+	of this software and associated documentation files (the "Software"), to deal
+	in the Software without restriction, including without limitation the rights
+	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:<br><br>
+
+	The above copyright notice and this permission notice shall be included in all
+	copies or substantial portions of the Software.<br><br>
+
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+	SOFTWARE.<br><br><br>
+
+	<b>Material Preference Compat</b><br><br>
+
+	The MIT License (MIT)<br><br>
+
+	Copyright &#169; 2015 Fung Jichun<br><br>
+
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+	of this software and associated documentation files (the "Software"), to deal
+	in the Software without restriction, including without limitation the rights
+	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:<br><br>
+
+	The above copyright notice and this permission notice shall be included in all
+	copies or substantial portions of the Software.<br><br>
+
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+	SOFTWARE.<br><br>
+
+
+	<b>Facebook SDK</b><br><br>
+
+	Copyright &#169; 2014-present, Facebook, Inc. All rights reserved.
+	<br><br>
+	You are hereby granted a non-exclusive, worldwide, royalty-free license to use,
+	copy, modify, and distribute this software in source code or binary form for use
+	in connection with the web services and APIs provided by Facebook.
+	<br><br>
+	As with any software that integrates with the Facebook platform, your use of
+	this software is subject to the Facebook Developer Principles and Policies
+	[http://developers.facebook.com/policy/]. This copyright notice shall be
+	included in all copies or substantial portions of the software.
+	<br><br>
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+	FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+	COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+	IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+	CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+	<br><br>
+
+	<b>Picasso</b><br><br>
+	Copyright 2013 Square, Inc.<br><br>
+
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at<br><br>
+
+	http://www.apache.org/licenses/LICENSE-2.0<br><br>
+
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.<br><br>
+
+
+
+	<b>Clans Floating Action Button</b><br><br>
+	Copyright 2015 Dmytro Tarianyk
+	<br><br>
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+	<br><br>
+   	http://www.apache.org/licenses/LICENSE-2.0
+	<br><br>
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+	<br><br>
+
+
+	<b>ActionItemBadge</b><br><br>
+	Copyright 2015 Mike Penz
+	<br><br>
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+	<br><br>
+   	http://www.apache.org/licenses/LICENSE-2.0
+	<br><br>
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+	<br><br>
+
+
+	<b>Android-Iconics</b><br><br>
+	Copyright 2015 Mike Penz
+	<br><br>
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+	<br><br>
+   	http://www.apache.org/licenses/LICENSE-2.0
+	<br><br>
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+	<br><br>
+
+
+	<b>AdvancedWebView</b><br><br>
+	Copyright 2015 delight.im <info@delight.im>
+	<br><br>
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+	<br><br>
+   	http://www.apache.org/licenses/LICENSE-2.0
+	<br><br>
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+	<br><br>
+
+
+	<b>SimpleCustomTabs</b><br><br>
+
+   	The MIT License (MIT)<br><br>
+
+	Copyright &#169; 2015 Eliseo Martelli<br><br>
+
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+	of this software and associated documentation files (the "Software"), to deal
+	in the Software without restriction, including without limitation the rights
+	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:<br><br>
+
+	The above copyright notice and this permission notice shall be included in all
+	copies or substantial portions of the Software.<br><br>
+
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+	SOFTWARE.<br><br><br>
+
+
+	<b>Facebook Wrapper</b><br><br>
+
+   	The MIT License (MIT)<br><br>
+
+	Copyright &#169; 2015 Jake Lane<br><br>
+
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+	of this software and associated documentation files (the "Software"), to deal
+	in the Software without restriction, including without limitation the rights
+	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:<br><br>
+
+	The above copyright notice and this permission notice shall be included in all
+	copies or substantial portions of the Software.<br><br>
+
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+	SOFTWARE.<br><br><br>
+
+	<b>FloatingView</b><br><br>
+	Copyright &#169; 2013 Luke Klinker
+	<br><br>
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+	<br><br>
+   	http://www.apache.org/licenses/LICENSE-2.0
+	<br><br>
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+	<br><br>
+
+	<b>Permiso</b><br><br>
+
+   	The MIT License (MIT)<br><br>
+
+	Copyright &#169; 2015 Greyson Parrelli<br><br>
+
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+	of this software and associated documentation files (the "Software"), to deal
+	in the Software without restriction, including without limitation the rights
+	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:<br><br>
+
+	The above copyright notice and this permission notice shall be included in all
+	copies or substantial portions of the Software.<br><br>
+
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+	SOFTWARE.<br><br><br>
+    ]]></string>
+
+
+
+    <string name="about_header">Open source licenses\nNotices for files</string>
+    <string name="copyright">\u00A9 2015 Creative Trends Apps LLC.</string>
+    <string name="allrights">Sva prava pridržana.</string>
+    <string name="about_version">http://www.creativetrendsapps.com</string>
+    <string name="about_image">Zahvale za sliku: Klyph for Facebook</string>
+    <!-- END OF LICENSES -->
+
+
+</resources>

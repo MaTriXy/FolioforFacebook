@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright (C) 2014-2015 Jorell Rutledge/Creative Trends.
+This file is originally apart of Folio for Facebook.
+Copyright notice must remain here if you're using any part of this code.-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.creativetrends.folio.app"
+    android:installLocation="auto"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+
+
+    <application
+        android:name="com.creativtrendz.folio.activities.FolioApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/FolioTheme">
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+                   android:value="@string/facebook_app_id"
+                   tools:ignore="ManifestResource" />
+
+        <receiver
+            android:name="com.creativtrendz.folio.notifications.FolioReceiver"
+            android:enabled="true"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name="com.creativtrendz.folio.notifications.PackageReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+                <data android:scheme="package" android:path="com.creativetrends.folio.app" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.creativtrendz.folio.notifications.FolioNotifications"
+            android:enabled="true"
+            android:exported="false"
+            android:icon="@drawable/ic_launcher" >
+        </service>
+
+        <activity
+            android:name="com.creativtrendz.folio.activities.BrandScreen"
+            android:label="@string/app_name"
+            android:configChanges="screenSize|orientation"
+            android:theme="@style/FolioStart" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="com.creativtrendz.folio.activities.MainActivity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|screenSize|orientation|locale"
+            android:windowSoftInputMode="adjustResize"
+            android:launchMode="singleTask">
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data
+                    android:host="m.facebook.com"
+                    android:scheme="http"/>
+                <data
+                    android:host="m.facebook.com"
+                    android:scheme="https"/>
+                <data
+                    android:host="m.fb.com"
+                    android:scheme="http"/>
+                <data
+                    android:host="m.fb.com"
+                    android:scheme="https"/>
+                <data
+                    android:host="touch.facebook.com"
+                    android:scheme="http"/>
+                <data
+                    android:host="touch.facebook.com"
+                    android:scheme="https"/>
+                <data
+                    android:host="touch.fb.com"
+                    android:scheme="http"/>
+                <data
+                    android:host="touch.fb.com"
+                    android:scheme="https"/>
+                <data
+                    android:host="facebook.com"
+                    android:scheme="http"/>
+                <data
+                    android:host="facebook.com"
+                    android:scheme="https"/>
+                <data
+                    android:host="fb.com"
+                    android:scheme="http"/>
+                <data
+                    android:host="fb.com"
+                    android:scheme="https"/>
+                <data
+                    android:host="www.facebook.com"
+                    android:scheme="http"/>
+                <data
+                    android:host="www.facebook.com"
+                    android:scheme="https"/>
+                <data
+                    android:host="www.fb.com"
+                    android:scheme="http"/>
+                <data
+                    android:host="www.fb.com"
+                    android:scheme="https"/>
+                <data
+                    android:host="apps.facebook.com"
+                    android:scheme="http"/>
+                <data
+                    android:host="apps.facebook.com"
+                    android:scheme="https"/>
+                <data
+                    android:host="apps.fb.com"
+                    android:scheme="http"/>
+                <data
+                    android:host="apps.fb.com"
+                    android:scheme="https"/>
+            </intent-filter>
+
+
+        </activity>
+
+        <activity
+            android:name="com.creativtrendz.folio.activities.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName="com.creativtrendz.folio.activities.MainActivity"
+            android:configChanges="screenSize|orientation"
+            android:theme="@style/FolioBlue"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.creativtrendz.folio.activities.MainActivity" />
+        </activity>
+
+
+        <activity
+            android:name="com.creativtrendz.folio.activities.AboutActivity"
+            android:label="@string/title_activity_about"
+            android:parentActivityName="com.creativtrendz.folio.activities.SettingsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/FolioBlue"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.creativtrendz.folio.activities.SettingsActivity" />
+        </activity>
+
+
+
+
+        <activity
+            android:name="com.creativtrendz.folio.activities.GoogleActivity"
+            android:parentActivityName="com.creativtrendz.folio.activities.MainActivity"
+            android:label="Google+"
+            android:configChanges="screenSize|orientation"
+            android:theme="@style/RedTheme" tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.creativtrendz.folio.activities.MainActivity" />
+        </activity>
+
+
+        <activity
+            android:name="com.creativtrendz.folio.activities.InstagramActivity"
+            android:parentActivityName="com.creativtrendz.folio.activities.MainActivity"
+            android:label="Instagram"
+            android:configChanges="screenSize|orientation"
+            android:theme="@style/FolioTheme" tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.creativtrendz.folio.activities.MainActivity" />
+        </activity>
+
+
+        <activity
+            android:name="com.creativtrendz.folio.activities.TumblrActivity"
+            android:parentActivityName="com.creativtrendz.folio.activities.MainActivity"
+            android:label="Tumblr"
+            android:configChanges="screenSize|orientation"
+            android:theme="@style/FalconTheme" tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.creativtrendz.folio.activities.MainActivity" />
+        </activity>
+
+        <activity
+            android:name="com.creativtrendz.folio.activities.QuickGoogle"
+            android:theme="@style/Theme.FloatingWindow.Popup"
+            android:label="Google+"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden"
+            android:clearTaskOnLaunch="true"
+            android:exported="true"
+            tools:ignore="ExportedActivity"/>
+
+        <activity
+            android:name="com.creativtrendz.folio.activities.QuickInstagram"
+            android:theme="@style/Theme.FloatingWindow.Popup"
+            android:label="Instagram"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden"
+            android:clearTaskOnLaunch="true"
+            android:exported="true"
+            tools:ignore="ExportedActivity" />
+
+        <activity
+            android:name="com.creativtrendz.folio.activities.QuickTumblr"
+            android:theme="@style/Theme.FloatingWindow.Popup"
+            android:label="Tumblr"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden"
+            android:clearTaskOnLaunch="true"
+            android:exported="true"
+            tools:ignore="ExportedActivity" />
+
+        <activity
+            android:name="com.creativtrendz.folio.activities.QuickFacebook"
+            android:theme="@style/Theme.FloatingWindow.Popup"
+            android:label="@string/app_name"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden"
+            android:clearTaskOnLaunch="true"
+            android:exported="true"
+            tools:ignore="ExportedActivity" />
+
+        <activity
+            android:name="com.creativtrendz.folio.activities.FolioBrowser"
+            android:label="@string/app_name"
+            android:theme="@style/FolioTheme">
+        </activity>
+
+
+        <activity
+            android:theme="@style/AppCompatAlertDialogStyle"
+            android:name="com.creativtrendz.folio.activities.FolioUnlock" />
+
+        <activity
+            android:theme="@style/AppCompatAlertDialogStyle"
+            android:name="com.creativtrendz.folio.activities.FolioLockSetup" />
+
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.facebook.LoginActivity" />
+
+        <activity android:name="com.purplebrain.adbuddiz.sdk.AdBuddizActivity"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <provider
+            android:name="net.grandcentrix.tray.provider.TrayProvider"
+            android:authorities="@string/tray__authority"
+            android:exported="false"
+            android:multiprocess="false" />
+
+    <uses-library android:required="false" android:name="com.sec.android.app.multiwindow"> </uses-library>
+    <meta-data android:name="com.sec.android.support.multiwindow" android:value="true" />
+    <meta-data android:name="com.sec.android.multiwindow.DEFAULT_SIZE_W" android:resource="@dimen/app_defaultsize_w" />
+    <meta-data android:name="com.sec.android.multiwindow.DEFAULT_SIZE_H" android:resource="@dimen/app_defaultsize_h" />
+    <meta-data android:name="com.sec.android.multiwindow.MINIMUM_SIZE_W" android:resource="@dimen/app_minimumsize_w" />
+    <meta-data android:name="com.sec.android.multiwindow.MINIMUM_SIZE_H" android:resource="@dimen/app_minimumsize_h" />
+    </application>
+
+
+
+</manifest>

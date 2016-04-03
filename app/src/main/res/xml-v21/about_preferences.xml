@@ -1,0 +1,127 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!-- Copyright (C) 2014-2015 Jorell Rutledge/Creative Trends.
+This file is originally apart of Folio for Facebook.
+Copyright notice must remain here if you're using any part of this code.-->
+
+
+    
+  <PreferenceCategory
+        android:title="@string/preference_category6">
+        
+        <Preference
+
+            android:key="facebook_url"
+            android:title="@string/credits_facebook"
+            android:selectable="false"/>
+
+        <Preference
+
+            android:key="google_url"
+            android:title="@string/credits_google"
+            android:selectable="false"/>
+        
+       <Preference
+			android:key="bejan"
+            android:title="@string/credits_bejan"
+            android:summary="@string/credits_bejan_description"/>
+       
+       <Preference
+			android:key="nam"
+            android:title="@string/credits_nam"
+            android:summary="@string/credits_nam_description"
+            android:selectable="false"/>
+       
+       <Preference
+			android:key="fadev"
+            android:title="@string/credits_fadev"
+            android:summary="@string/credits_fadev_description"
+            android:selectable="false"/>
+       
+              
+       <Preference
+
+            android:key="beta"
+            android:title="@string/credits_beta"
+            android:summary="@string/credits_beta_description"/>
+       
+       <Preference
+
+            android:key="google_plus"
+            android:title="@string/credits_google_plus"
+            android:summary="@string/credits_google_plus_description"/>
+       
+       <Preference
+
+            android:title="@string/credits_janae"
+            android:summary="@string/credits_janae_description"
+            android:selectable="false"/>
+       
+       <Preference
+            android:title="@string/credits_tykeshia"
+            android:summary="@string/credits_tykeshia_description"
+            android:selectable="false"/>
+
+     </PreferenceCategory>
+     
+     <PreferenceCategory
+        android:title="@string/preference_category12">
+       
+         <Preference
+            android:title="@string/credits_italian"
+            android:summary="@string/credits_italian_description"
+            android:selectable="false"/>
+         
+         <Preference
+            android:title="@string/credits_spanish"
+            android:summary="@string/credits_spanish_description"
+            android:selectable="false"/>
+         
+         <Preference
+            android:title="@string/credits_german"
+            android:summary="@string/credits_german_description"
+            android:selectable="false"/>
+         
+         <Preference
+            android:title="@string/credits_brazilian"
+            android:summary="@string/credits_brazilian_description"
+            android:selectable="false"/>
+         
+                  
+         <Preference
+            android:title="@string/credits_turk"
+            android:summary="@string/credits_turk_description"
+            android:selectable="false"/>
+         
+         <Preference
+            android:title="@string/credits_fren"
+            android:summary="@string/credits_fren_description"
+            android:selectable="false"/>
+         
+         <Preference
+            android:title="@string/credits_pol"
+            android:summary="@string/credits_pol_description"
+            android:selectable="false"/>
+         
+         <Preference
+            android:title="@string/credits_rom"
+            android:summary="@string/credits_rom_description"
+            android:selectable="false"/>
+         
+                  
+         
+   
+   </PreferenceCategory>
+    
+   <PreferenceCategory
+        android:title="@string/preference_category8">
+         
+   <Preference
+      android:key="about"
+      android:summary="@string/credits_licenses"
+      android:title="@string/credits_licenses_description" />
+   
+   </PreferenceCategory>
+
+</PreferenceScreen>

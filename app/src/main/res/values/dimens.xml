@@ -1,0 +1,46 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!-- Copyright (C) 2014-2015 Jorell Rutledge/Creative Trends.
+	This file is originally apart of Folio for Facebook.
+	Copyright notice must remain here if you're using any part of this code.-->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="toolbar_elevation">0dp</dimen>
+    <dimen name="loading_spinner_top_padding">5dip</dimen>
+    <dimen name="loading_video_text_size">14sp</dimen>
+    <dimen name="tool_bar_top_padding">0dp</dimen>
+
+    <dimen name="app_defaultsize_w">632.0dip</dimen>
+    <dimen name="app_defaultsize_h">598.0dip</dimen>
+    <dimen name="app_minimumsize_w">632.0dip</dimen>
+    <dimen name="app_minimumsize_h">598.0dip</dimen>
+
+    <dimen name="drawer_top">24dp</dimen>
+    <dimen name="drawer_left">16dp</dimen>
+    <dimen name="drawer_right">16dp</dimen>
+    <dimen name="drawer_text_with_icon">72dp</dimen>
+    <dimen name="drawer_header_text">56dp</dimen>
+    <dimen name="drawer_grouping_padding">8dp</dimen>
+    <dimen name="drawer_item_height">48dp</dimen>
+    <dimen name="drawer_min_width_phone">320dp</dimen>
+    <dimen name="drawer_min_width_tablet">400dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    
+    
+    <dimen name="dialog_frame_margin">24dp</dimen>
+	<dimen name="dialog_content_padding_top">8dp</dimen>
+	<dimen name="dialog_content_padding_bottom">8dp</dimen>
+	<dimen name="dialog_content_textsize">14sp</dimen>
+	<dimen name="pref_title_space">8dp</dimen>
+	
+	<dimen name="statusbar_margin">0dp</dimen>
+	
+	
+	<dimen name="image_thumbnail_size">100dp</dimen>
+    <dimen name="image_thumbnail_spacing">3dp</dimen>
+    <dimen name="default_space">8dp</dimen>
+    
+    <dimen name="launch_screen_logo_bottom">16.0dip</dimen>
+    <dimen name="launch_screen_text_bottom">88.0dip</dimen>
+    <dimen name="fab_scroll_threshold">6dip</dimen>
+</resources>

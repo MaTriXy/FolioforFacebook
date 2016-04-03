@@ -1,0 +1,75 @@
+<menu 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" 
+    tools:context=".MainActivity">
+    
+     <!-- overflow-->
+	<item 
+	    android:id="@+id/close"
+	    android:title="@string/exit"
+	    android:orderInCategory="8"
+        app:showAsAction="never" /> 
+        
+	<item 
+	    android:id="@+id/logout"
+	    android:title="@string/end"
+	    android:orderInCategory="7"
+        app:showAsAction="never" /> 
+
+
+    <item 
+        android:id="@+id/fb_settings"
+        android:title="@string/fb_settings"
+        android:orderInCategory="6"
+        app:showAsAction="never" />
+    
+    
+   <!-- main menu --> 
+    
+    <item 
+        android:id="@+id/online"
+       	android:title="@string/fb_chat"
+       	android:orderInCategory="4"
+       	app:showAsAction="never" />
+    
+    <item 
+        android:id="@+id/folio_fav"
+        android:title="@string/faved"
+        android:orderInCategory="3"
+        app:showAsAction="never" />
+    
+       
+    <item 
+        android:id="@+id/action_notifications"
+        android:title="@string/notifications"
+        app:actionLayout="@layout/menu_badge"
+        android:orderInCategory="2"
+        app:showAsAction="always" 
+        tools:ignore="AlwaysShowAction"/>
+    
+    <item 
+        android:id="@+id/action_messages"
+        android:title="@string/messages"
+        app:actionLayout="@layout/menu_badge"
+        android:orderInCategory="1"
+        app:showAsAction="always" 
+        tools:ignore="AlwaysShowAction"/>
+    
+    
+        
+    <item 
+        android:id="@+id/search"
+        android:title="@string/search"
+        android:icon="@drawable/ic_search"
+        android:orderInCategory="0"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction"/>
+    
+    
+    
+    
+
+    
+
+</menu>

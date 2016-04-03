@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    
+    <string-array name="colors">
+        <item>white</item>
+        <item>red</item>
+        <item>green</item>
+        <item>blue</item>
+        <item>cyan</item>
+        <item>magenta</item>
+    </string-array>
+    
+    <string-array name="colorsNames">
+        <item>White</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Cyan</item>
+        <item>Magenta</item>
+    </string-array>
+    
+    
+        
+    <string-array name="pref_theme_values">
+        <item>folio</item>
+        <item>pink</item>
+        <item>darktheme</item>
+        <item>bluegrey</item>
+    </string-array>
+    
+    
+    <string-array name="font_pref">
+        <item>default_font</item>
+        <item>small_font</item>
+        <item>medium_font</item>
+        <item>large_font</item>
+        <item>xl_font</item>
+        <item>xxl_font</item>
+        
+    </string-array>
+    
+    
+      <string-array name="pref_theme_values_free">
+        <item>facebooktheme</item>
+        <item>darktheme</item>
+        <item>draculatheme</item>
+        <item>materialtheme</item>    
+      </string-array>
+      
+      <string-array name="pref_feed">
+        <item>default_news</item>
+        <item>most_recent</item>
+        <item>top_news</item>
+      </string-array>
+    
+    
+    
+      <integer name="fade_duration">250</integer>
+
+    <!-- Swipe constants -->
+    <integer name="swipe_escape_velocity">100</integer>
+    <integer name="escape_animation_duration">200</integer>
+    <integer name="max_escape_animation_duration">400</integer>
+    <integer name="max_dismiss_velocity">2000</integer>
+    <integer name="snap_animation_duration">350</integer>
+    <integer name="dismiss_animation_duration">500</integer>
+    <integer name="swipe_scroll_slop">2</integer>
+    <dimen name="min_swipe">10dip</dimen>
+    <dimen name="min_vert">10dip</dimen>
+    <dimen name="min_lock">20dip</dimen>
+    <integer name="hide_animation_duration">200</integer>
+    <integer name="dim_animation_duration">500</integer>
+</resources>
+    
