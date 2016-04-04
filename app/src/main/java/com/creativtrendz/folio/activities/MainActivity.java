@@ -234,7 +234,7 @@ public class MainActivity extends AppCompatActivity implements View.OnLongClickL
 
 
             super.onCreate(savedInstanceState);
-            AdBuddiz.setPublisherKey("d8466a00-aaaa-4f2a-a763-a690adb16501");
+            AdBuddiz.setPublisherKey("");
             AdBuddiz.cacheAds(this);
             Permiso.getInstance().setActivity(this);
             setContentView(R.layout.activity_main);
