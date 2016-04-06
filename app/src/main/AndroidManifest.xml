@@ -42,15 +42,7 @@ Copyright notice must remain here if you're using any part of this code.-->
             </intent-filter>
         </receiver>
 
-        <receiver
-            android:name="com.creativtrendz.folio.notifications.PackageReceiver"
-            android:enabled="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.PACKAGE_REPLACED" />
-                <data android:scheme="package" android:path="com.creativetrends.folio.app" />
-            </intent-filter>
-        </receiver>
-
+    
         <service
             android:name="com.creativtrendz.folio.notifications.FolioNotifications"
             android:enabled="true"
